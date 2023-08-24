@@ -81,7 +81,7 @@ button {
 
 li{
   width:400px;
-  border:1px solid grey;
+  border:1px solid aqua;
   padding:1rem;
   border-radius:5px;
 }
@@ -136,11 +136,14 @@ transition: all 0.6s ease;
   
   .invitees-leave-active{
   transition: all 0.6s ease;
+  position:absolute;
   }
 
 .invitees-move{
   transition: 0.6s ease all;
 }
+
+
 
 
 
@@ -173,7 +176,7 @@ transition: all 0.6s ease;
   
   li{
     width:310px;
-    border:1px solid grey;
+    border:1px solid aqua;
     padding:1rem;
     border-radius:5px;
   }

@@ -19,6 +19,7 @@
     padding: 0.7rem;
     align-items: center;
     justify-content: space-between;
+    margin-bottom:3rem;
   }
   
   .container {
@@ -28,7 +29,7 @@
   }
   
   .nav-links {
-    color: aqua;
+    color: aquamarine;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 500;
@@ -39,6 +40,7 @@
   .logo {
     font-size: 1.3rem;
     font-weight: 600;
+    color:aqua;
   }
   
   .nav-links:hover {
