@@ -34,7 +34,7 @@ const refreshList= ()=> {
       <input v-model.trim="inputName" type="text" placeholder="Add invitee to the list...">
     </div>
     <div class="button-wrapper">
-      <button @click="addName" >Add name to the List</button>
+      <button @click="addName" >Add Name To The List</button>
       <button @click="refreshList">Delete List</button>
     </div>
     <div class="list-container">
@@ -141,5 +141,56 @@ transition: all 0.6s ease;
 .invitees-move{
   transition: 0.6s ease all;
 }
+
+
+
+@media (max-width: 767px) {
+  input[type="text"] {
+    width: 310px; 
+    padding: 1.5rem 2rem 1.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    margin-bottom:1.4rem;
+  }
+
+  .container{
+    max-width:600px;
+  }
+
+  button {
+    width:310px;
+    padding: 1.3rem 4rem ;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: aqua;
+    color: rgb(7, 83, 83);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  li{
+    width:310px;
+    border:1px solid grey;
+    padding:1rem;
+    border-radius:5px;
+  }
+
+  .list-container {
+    margin-top: 2rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    max-width:350px;
+    text-align: left; 
+  }
+  
+
+}
+
 
 </style>

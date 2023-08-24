@@ -50,5 +50,16 @@
     gap: 1rem;
     justify-content: flex-end;
   }
+
+
+@media (max-width: 767px) {
+
+.nav-wrapper{
+    flex-direction:column;
+}
+
+
+}
+
   </style>
   
